@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    gap: .5rem;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    background-color: cadetblue;
+    position: fixed;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+main {
+    width: 80%;
+    background-color: rgb(196, 216, 218);
+    margin: 0 auto;
+    flex: 1;
+}
+
+.formulario {
+    width: 70%;
+    height: auto;
+    border: 0.1rem solid black;
+    margin: 0 auto;
+    margin-top: 7rem;
+    padding: 2rem;
+    background-color: rgb(163, 189, 210);
+}
+
+.campo {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+label {
+    width: 6rem;
+}
+
+textarea {
+    width: 45%;
+    height: 15vh;
+    resize: none;
+}
+
+.campo input {
+    width: auto;
+    padding: .5rem;
+}
+
+.botones {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 7rem;
+}
+
+.enviar {
+    background-color: rgb(118, 118, 183);
+    width: 5rem;
+}
+
+.cancelar {
+    background-color: blanchedalmond;
+    width: 5rem;
+    margin-left: 1rem;
+}
+
+footer {
+    width: 100%;
+    background-color: cadetblue;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
